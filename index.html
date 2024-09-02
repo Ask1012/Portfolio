@@ -27,7 +27,25 @@
 
 </head>
 
-
+<style>
+.project-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+#projects h2{
+text-align:center;
+}
+        .project-card {
+            background-color: white;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            color:black;
+        }
+</style>
 <body id="top">
 
     
@@ -154,7 +172,7 @@
 
         </section> <!-- end s-intro -->
 
-
+        
         <!-- # about
         ================================================== -->
         <section id="about" class="s-about target-section">
@@ -209,7 +227,24 @@
         </section> <!-- end s-about -->   
 
 
-
+        <section id="projects" class="slide-element">
+        <h2>   Projects</h2>
+        <div class="project-grid">
+            <!-- Repeat this block for each project -->
+       <br>     <div class="project-card">
+                <h3>Music site</h3>
+                 <a href="https://ask1012.github.io/Music_with_ask/" class="btn">View Project</a>
+            </div>
+       <br>     <div class="project-card">
+                <h3>College Canteen</h3>
+                 <a href="https://ask1012.github.io/college-canteen-/" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>SQL Generator</h3>
+                  <a href="https://ask1012.github.io/SQL-chatBot/" class="btn">View Project</a>
+            </div>
+        </div>
+        </section>
         
 
         
